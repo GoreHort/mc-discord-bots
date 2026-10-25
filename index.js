@@ -21,7 +21,7 @@ try {
 const http = require('http');
 
 // 3. Lightweight Health-Check HTTP Server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 7860;
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({
